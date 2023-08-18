@@ -118,4 +118,4 @@ Give a ⭐️ if you like the project!
 
 Go Buddy is released under the [MIT](./LICENSE) License.
 
-Thank you for choosing Go Buddy as task tracker. We're excited to join you on your journey to financial organization and success. If you have any questions or need assistance, feel free to reach out to our support team at support@gobuddyapp.com. Happy task tracking! 🚀
+Thank you for choosing Go Buddy as task tracker. We're excited to join you on your journey to financial organization and success. If you have any questions or need assistance, feel free to reach out to our support team at <b>solobarine@gmail.com</b>. Happy task tracking! 🚀
