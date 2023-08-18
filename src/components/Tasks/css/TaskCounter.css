@@ -1,0 +1,43 @@
+#task_counter {
+    background-color: var(--primary);
+    margin: 1em 0;
+    padding: 1.4em 0.5em;
+    padding-bottom: 2em;
+    border-radius: 0.4em;
+}
+
+#task_counter>p {
+    font-size: 1.4em;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    color: var(--light);
+}
+
+#personal_pending,
+#team_pending {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    margin-bottom: 0.6em;
+    color: var(--light);
+}
+
+#personal_pending div,
+#team_pending div {
+    height: 0.6em;
+    width: 0.6em;
+    border-radius: 50%;
+}
+
+#personal_pending small,
+#team_pending small {
+    color: var(--light);
+}
+
+#personal_pending div {
+    background-color: var(--light);
+}
+
+#team_pending div {
+    background-color: var(--secondary);
+}
