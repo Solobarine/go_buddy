@@ -1,0 +1,20 @@
+#phone_header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em;
+}
+
+#phone_header>div {
+    display: flex;
+    gap: 1em;
+}
+
+#time,
+#phone_header ion-icon {
+    color: var(--white);
+}
