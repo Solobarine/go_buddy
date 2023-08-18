@@ -1,0 +1,23 @@
+#login_image>img {
+    display: block;
+    margin: 1.5em auto;
+}
+
+#login {
+    flex-grow: 1;
+}
+
+#login form {
+    padding: 15px;
+    display: grid;
+}
+
+#register_option {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#register_option a {
+    text-decoration: none;
+    color: var(--primary);
+}
