@@ -1,0 +1,40 @@
+#task_card {
+    text-decoration: none;
+    display: block;
+    flex: 1 0 95%;
+}
+
+.taskcard {
+    border-left: .3em solid var(--secondary);
+    border-radius: .5em;
+    background-color: var(--white);
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+}
+
+.taskcard #title {
+    font-size: 1.5em;
+}
+
+.taskcard>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.extra_info {
+    display: flex;
+    gap: 2em;
+}
+
+.extra_info ion-icon {
+    font-size: 2em;
+}
+
+.extra_info small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}

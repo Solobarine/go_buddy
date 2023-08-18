@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,400;0,800;1,400;1,800&family=Sacramento&display=swap');
+
 :root {
   color-scheme: light dark;
+  --primary: #9581ff;
+  --secondary: #ffc804;
+  --dark: #000;
+  --light-dark: #362f3f;
+  --light: #f6f6f6;
+  --white: #fff;
+}
+
+#root {
+  max-width: 600px;
+  margin: auto;
+  background-color: var(--light);
+}
+
+#app {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', serif;
+  color: var(--light-dark);
+}
+
+input[type='submit'] {
+  padding: 12px;
+  font-size: 1.2em;
+  background-color: var(--primary);
+  color: var(--light);
+  border: none;
+  border-radius: 12px;
 }

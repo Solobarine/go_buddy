@@ -1,0 +1,97 @@
+#create_task {
+    max-width: 600px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em;
+    transition: 0.6s ease;
+    background-color: var(--light);
+}
+
+#short_line {
+    max-width: 100px;
+    background-color: var(--primary);
+    padding: 0.2em;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 0.4em;
+    margin-bottom: 2.2em;
+}
+
+hr {
+    margin-bottom: 1em;
+}
+
+#create_task form {
+    display: grid;
+    gap: 1em;
+}
+
+#create_task form>div {
+    display: grid;
+    gap: 0.5em;
+}
+
+#create_task input,
+#create_task textarea {
+    padding: 1em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+}
+
+#create_task textarea {
+    min-height: 10em;
+}
+
+#create_task #type>div {
+    display: flex;
+    border-radius: 1em;
+    background-color: var(--white);
+}
+
+#create_task #type>div>* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 1em;
+    /* background-color: var(--white); */
+    transition: all 0.6s ease;
+}
+
+#type ion-icon {
+    font-size: 2em;
+}
+
+.selected {
+    background-color: var(--primary);
+}
+
+.selected>*,
+.selected {
+    color: var(--white);
+}
+
+.unselect {
+    background-color: var(--white);
+}
+
+.unselect>*,
+.unselect {
+    color: var(--dark);
+}
+
+.hide {
+    position: absolute;
+    bottom: -60em;
+}
+
+.show {
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,56 @@
+#view_tasks {
+    position: relative;
+}
+
+#view_tasks_header {
+    position: sticky;
+    top: 2em;
+    background-color: var(--primary);
+    padding: 0.7em;
+    padding-bottom: 0;
+    z-index: 2;
+}
+
+#view_tasks_header div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+#section_name,
+#view_tasks_header ion-icon {
+    font-size: 1.5em;
+    color: var(--white);
+}
+
+#view_tasks_header a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 1em;
+}
+
+#options a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.8em;
+    color: var(--white);
+}
+
+.view_tasks {
+    display: grid;
+    gap: 1.4em;
+    padding: 0.7em;
+    padding-bottom: 3em;
+}
+
+#view_tasks .active {
+    border-bottom: .4em solid var(--white);
+}

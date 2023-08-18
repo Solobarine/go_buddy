@@ -1,0 +1,30 @@
+.form_input {
+    margin-bottom: 2em;
+}
+
+.form_input>div {
+    position: relative;
+    display: flex;
+}
+
+.form_input ion-icon {
+    position: absolute;
+    font-size: 1.6em;
+    top: 50%;
+    left: 0.6em;
+    transform: translateY(-50%);
+}
+
+.form_input input {
+    flex-grow: 1;
+    padding: 15px;
+    padding-left: 45px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
+
+.errorMessage {
+    display: block;
+    margin-top: 1em;
+}

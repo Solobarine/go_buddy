@@ -1,0 +1,87 @@
+#dashboard {
+    padding: 1em;
+    position: relative;
+    flex-grow: 1;
+    overflow-y: hidden;
+    transition: all .6s ease;
+}
+
+#dashboard #welcome {
+    display: flex;
+    gap: 1em;
+}
+
+#dashboard #welcome img {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#dashboard #welcome>img {
+    background-color: var(--primary);
+    border-radius: 50%;
+    padding: 0.2em;
+}
+
+#dashboard #welcome>div {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#statistics {
+    display: flex;
+    gap: 0.3em;
+}
+
+#statistics>div {
+    flex-grow: 1;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: .6em;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+}
+
+#statistics>div>p {
+    font-weight: 600;
+}
+
+.task_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task_head>a {
+    text-decoration: none;
+}
+
+#personal_tasks>div>p,
+#team_tasks>div>p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+#team_tasks {
+    margin-top: 1.5em;
+    margin-bottom: 6em;
+}
+
+.task_cards {
+    display: flex;
+    gap: 1em;
+    overflow-x: scroll;
+}
+
+#create_button {
+    font-size: 2em;
+    padding: .2em .4em;
+    border-radius: .2em;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
